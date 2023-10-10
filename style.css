@@ -1,0 +1,100 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: wheat;
+}
+
+.box {
+    background: #000;
+    height: 100vh;
+    position: relative;
+}
+
+.item {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    transition: 0.4s ease-in-out;
+}
+
+.item:nth-child(1) {
+    background: red;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item:nth-child(2) {
+    background: rgb(0, 255, 94);
+    position: absolute;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+
+.item:nth-child(3) {
+    background: rgb(234, 255, 0);
+    position: absolute;
+    top: 50%;
+    left: 58%;
+    transform: translate(-50%, -50%);
+}
+
+.item:nth-child(4) {
+    background: rgb(187, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+.item:nth-child(1):hover {
+    top: 35%;
+    transform: rotate(-360deg);
+    z-index: 10;
+}
+
+.item:nth-child(2):hover {
+    top: 35%;
+    transform: rotate(-360deg);
+    z-index: 10;
+}
+
+.item:nth-child(3):hover {
+    top: 35%;
+    transform: rotate(-360deg);
+    z-index: 10;
+}
+
+.item:nth-child(4):hover {
+    top: 35%;
+    transform: rotate(-360deg);
+    z-index: 10;
+}
+
+.item:nth-child(5) {
+    background: rgb(199, 212, 9);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.item:nth-child(6) {
+    background: rgb(187, 0, 255);
+    position: absolute;
+    top: 50%;
+    left: 62%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+
+
